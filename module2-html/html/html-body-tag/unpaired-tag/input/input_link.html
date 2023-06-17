@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact us form using input tag </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        h1 
+        {
+            font-size: 48px;
+            color: blue;
+        }
+        hr 
+        {
+            width: 15%;
+            border: solid 2px blue;
+        }
+        input 
+        {
+            width: 380px;
+            height: 30px;
+        }
+        textarea 
+        {
+            width: 380px;
+            height: 70px;
+        }
+        button[type="submit"]
+        {
+            width: 190px;
+            height: 35px;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+        }
+
+        input[type="reset"]
+        {
+            width: 190px;
+            height: 35px;
+            background-color: red;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body bgcolor="yellow">
+
+
+    <center>
+    <h1 align="center">Contact us </h1>
+    <hr>
+    <p>All field with <span style="color:red">(*)</span> are required</p>
+    
+    <form method="get">
+    <input type="text" name="name" placeholder="Enter your Name *" required>
+    <br><br>
+    <input type="text" name="firstname" placeholder="Enter your FirstName *" required>
+    <br><br>
+    <input type="text" name="lastname" placeholder="Enter your LastName *" required>
+    <br><br>
+    <!-- <input type="text" name="dob" placeholder="dd/mm/yy *">
+    -->
+    <input type="date" name="dob" placeholder="dd/mm/yy *" required>
+    <br><br>
+    <input type="text" name="phone" placeholder="Enter your Phone *" required>
+    <br><br>
+    <input type="email" name="email" placeholder="Enter your email *" required>
+    <br><br>
+    <textarea name="message" placeholder="Enter your message *" required></textarea>
+    <br><br>
+    <a href="welcome.html" target="_blank"><button type="submit" name="send">Send</button></a>
+
+    <input type="reset" name="reset" value="Reset">
+
+    </form>  
+
+    <p> asdfa dfsddsa dsa dsad asds adas dsa dasd sad sadsa das das dsad sadsa dsa dsad asd sadsa dsa das dasd sad asd asdas dsa dasd asd asd asd asdas das das dasd asd asd adas das das dasd asdas dasd </p>
+    
+
+</center>
+</body>
+</html>

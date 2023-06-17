@@ -1,0 +1,112 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+/* display: flex is always work on parent section */
+#header 
+{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.logo 
+{
+    width: 25%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  
+}
+.logo b 
+{
+    color: white;
+    font-size: 20px;
+    
+}
+.search-box 
+{
+    width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+}
+.search-box input 
+{
+    width: 92%;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.account-create
+{
+    width: 20%;
+    height: auto;
+    padding: 0px;
+    margin-left: 5%;
+}
+
+#content 
+{
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+    /* display: grid;
+    grid-template-columns: auto auto; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+
+}
+.box 
+{
+    width: 80%;
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    margin-top: 2%;
+}
+.txt-content
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+}
+
+.txt-content h1 
+{
+    font-size: 45px;
+    text-align: center;
+}
+
+#footer 
+{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-color: black;
+}
+
+.footer-txt
+{
+    position: absolute;
+    left: 0px;
+    width: calc(100% - 100px);
+    height: 100px !important;
+    background-color: white;
+    border: solid 2px red;
+}

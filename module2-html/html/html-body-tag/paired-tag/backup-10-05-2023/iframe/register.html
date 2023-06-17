@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        input[type="text"],input[type="password"]
+        {
+            width: 350px;
+            height: auto;
+            padding: 8px;
+        }
+        input[type="submit"]        {
+            width: 150px;
+            height: auto;
+            padding: 10px;
+            background-color: black;
+            border: none;
+            color: white;
+        }
+
+        
+        input[type="reset"]        {
+            width: 150px;
+            height: auto;
+            padding: 10px;
+            background-color: red;
+            border: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <form>
+            <input type="text" name="fname" placeholder="Firstname *" required>
+            <br><br>
+            <input type="text" name="lname" placeholder="Lastname *" required>
+            <br><br>
+            <input type="text" name="email" placeholder="Email *" required>
+            <br><br>
+            <input type="password" name="pass" placeholder="Password *" required>
+            <br><br>
+            <input type="password" name="cpass" placeholder="Confirm password *" required>
+            <br><br>
+            <input type="submit" name="register" value="Register">
+            <input type="reset" name="reset" value="Reset">
+            <br><br>
+            <b>Already have an account ?<a href="login.html" target="frm">Login Here?</a></b>
+          
+        </form>
+    </center>
+</body>
+</html>
