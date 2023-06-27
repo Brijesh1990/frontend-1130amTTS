@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        #box 
+        {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        .box1
+        {
+            width: 100%;
+            height: 668px;
+            position: absolute;
+        }
+        .box2 
+        {
+            width: 50%;
+            height: 250px;
+            margin: auto;
+            margin-left: 25%;
+            padding: 20px;
+            position: absolute;
+            /* background-color: rgba(50,0,0,0.1); */
+            background-color: transparent;
+            margin-top: -35%;
+            color: white;
+
+        }
+
+        .box3 
+        {
+            width: 50%;
+            height: 250px;
+            margin: auto;
+            margin-left: 25%;
+            padding: 20px;
+            position: absolute;
+            /* background-color: rgba(50,0,0,0.1); */
+            background-color: transparent;
+            margin-top: -28%;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+<section id="box">
+
+  <div class="box1">
+    <svg width="100%" height="100%" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" overflow="auto" shape-rendering="auto" fill="#ffffff">
+        <defs>
+         <path id="wavepath" d="M 0 2000 0 500 Q 76 434 152 500 t 152 0 152 0 152 0 152 0 152 0 152 0 152 0 152 0  v1000 z" />
+         <path id="motionpath" d="M -304 0 0 0" /> 
+        </defs>
+        <g >
+         <use xlink:href="#wavepath" y="-449" fill="#3353ec">
+         <animateMotion
+          dur="5s"
+          repeatCount="indefinite">
+          <mpath xlink:href="#motionpath" />
+         </animateMotion>
+         </use>
+        </g>
+      </svg>
+
+      <div class="box2">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam pariatur, necessitatibus sint repellat dolor fugiat quod molestias ab similique. Dolorem at, soluta quidem dolore iusto suscipit ad possimus quasi quisquam!</p>
+
+
+      </div>
+
+      <div class="box3">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam pariatur, necessitatibus sint repellat dolor fugiat quod molestias ab similique. Dolorem at, soluta quidem dolore iusto suscipit ad possimus quasi quisquam!</p>
+
+
+      </div>
+      
+  </div>  
+
+</section>
+    
+
+    
+</body>
+</html>

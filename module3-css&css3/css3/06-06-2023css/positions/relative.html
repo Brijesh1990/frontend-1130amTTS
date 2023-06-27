@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>relative postions</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <!-- relative positions : relative positions are used to only with parent sections
+        bo absolute positions : absolute is used with parent child section 
+    -->
+
+    <style>
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+#box 
+{
+    width: 100%;
+    height: 450px;
+    background-color: cadetblue;
+    margin: auto;
+    margin-top: 0;
+    position: relative;
+}
+.txt 
+{
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+    </style>
+</head>
+<body>
+
+    <section id="box">
+    <div class="txt"><h1>Contact with us for 50% Discount</h1></div>    
+    </section>
+    
+</body>
+</html>

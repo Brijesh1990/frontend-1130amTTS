@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        #block
+        {
+            width: 100%;
+            height: auto;
+            padding: 25px;
+            position: relative;
+        }
+        .block1
+        {
+            width: 350px;
+            height: 250px;
+            background-color: blue;
+            position: absolute;
+            z-index: 1;
+        }
+        
+        .block2
+        {
+            width: 350px;
+            height: 250px;
+            background-color: red;
+            position: absolute;
+            margin-left: 13%;
+            margin-top: 4%;
+            z-index: -1;
+        }
+
+        
+        .block3
+        {
+            width: 350px;
+            height: 250px;
+            background-color: green;
+            position: absolute;
+            margin-left: 24%;
+            margin-top: 8%;
+            z-index: -2;
+        }
+
+        
+        </style>
+</head>
+<body>
+
+    <section id="block">
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,328 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: lightslategray;
+}
+
+#header 
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo 
+{
+    width: 30%;
+    height: auto;
+    font-size: 28px;
+}
+.search 
+{
+    width: 50%;
+    height: auto;
+}
+.search input 
+{
+    width: 80%;
+    height: auto;
+    padding: 8px;
+}
+.social-media 
+{
+    width: 20%;
+    height: auto;
+    font-size: 30px;
+    margin-right: 5%;
+}
+#banner 
+{
+    width: 90%;
+    height: 60vh;
+    margin-left: 5%;
+    background: url('https://images.ctfassets.net/hfb264dqso7g/iVwoWCCUnty645dMtjd9f/fc09d1bccd3459eb528870a3901a7026/Ecommerce-Banner-Ad-Design.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-text 
+{
+width: 60%;
+height: auto;
+margin: auto;
+background-color: rgba(20,0, 0,0.3);
+position: absolute;
+margin-left: 20%;
+margin-top: 6%;
+}
+.banner-text,h1 .banner-text,p 
+{
+    padding: 10px;
+    color: white;
+}
+@media only  screen and (max-width:480px) {
+    body 
+    {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        /* background-color: cadetblue !important; */
+    }
+    
+#header 
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo 
+{
+    width: 20%;
+    height: auto;
+    font-size: 22px;
+}
+.search 
+{
+    width: 60%;
+    height: auto;
+}
+.search input 
+{
+    width: 92%;
+    height: auto;
+    padding: 6px;
+}
+.social-media 
+{
+    width: 30%;
+    height: auto;
+    font-size: 18px;
+    margin-right: 2%;
+}
+#banner 
+{
+    width: 100%;
+    height:40vh;
+    padding: 25px;
+    margin-left: 0;
+    background: url('https://images.ctfassets.net/hfb264dqso7g/iVwoWCCUnty645dMtjd9f/fc09d1bccd3459eb528870a3901a7026/Ecommerce-Banner-Ad-Design.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-text 
+{
+width: 80%;
+height: auto;
+margin: auto;
+background-color: rgba(20,0, 0,0.3);
+position: absolute;
+margin-left: 5%;
+margin-top: 0%;
+}
+.banner-text,h1 .banner-text,p 
+{
+    padding: 10px;
+    color: white;
+    
+}
+}
+
+@media only  screen and (max-width:769px) {
+    body 
+    {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        /* background-color: red !important; */
+    }
+     
+#header 
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo 
+{
+    width: 20%;
+    height: auto;
+    font-size: 22px;
+}
+.search 
+{
+    width: 60%;
+    height: auto;
+}
+.search input 
+{
+    width: 92%;
+    height: auto;
+    padding: 6px;
+}
+.social-media 
+{
+    width: 30%;
+    height: auto;
+    font-size: 18px;
+    margin-right: 2%;
+}
+#banner 
+{
+    width: 100%;
+    height:40vh;
+    padding: 25px;
+    margin-left: 0;
+    background: url('https://images.ctfassets.net/hfb264dqso7g/iVwoWCCUnty645dMtjd9f/fc09d1bccd3459eb528870a3901a7026/Ecommerce-Banner-Ad-Design.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-text 
+{
+width: 80%;
+height: auto;
+margin: auto;
+background-color: rgba(20,0, 0,0.3);
+position: absolute;
+margin-left: 5%;
+margin-top: 0%;
+}
+.banner-text,h1 .banner-text,p 
+{
+    padding: 10px;
+    color: white;
+    
+}
+}
+
+
+@media only  screen and (max-width:1024px) {
+    body 
+    {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        /* background-color:orange !important; */
+    }
+     
+#header 
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo 
+{
+    width: 20%;
+    height: auto;
+    font-size: 22px;
+}
+.search 
+{
+    width: 60%;
+    height: auto;
+}
+.search input 
+{
+    width: 92%;
+    height: auto;
+    padding: 6px;
+}
+.social-media 
+{
+    width: 30%;
+    height: auto;
+    font-size: 18px;
+    margin-right: 2%;
+}
+
+#banner 
+{
+    width: 100%;
+    height:40vh;
+    padding: 25px;
+    margin-left: 0;
+    background: url('https://images.ctfassets.net/hfb264dqso7g/iVwoWCCUnty645dMtjd9f/fc09d1bccd3459eb528870a3901a7026/Ecommerce-Banner-Ad-Design.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-text 
+{
+width: 80%;
+height: auto;
+margin: auto;
+background-color: rgba(20,0, 0,0.3);
+position: absolute;
+margin-left: 5%;
+margin-top: 0%;
+}
+.banner-text,h1 .banner-text,p 
+{
+    padding: 10px;
+    color: white;
+    
+}
+
+}
+
+
+@media only  screen and (max-width:1401px) {
+    body 
+    {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        /* background-color:blue !important; */
+    }
+
+    #banner 
+{
+    width: 100%;
+    height:40vh;
+    padding: 25px;
+    margin-left: 0;
+    background: url('https://images.ctfassets.net/hfb264dqso7g/iVwoWCCUnty645dMtjd9f/fc09d1bccd3459eb528870a3901a7026/Ecommerce-Banner-Ad-Design.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-text 
+{
+width: 80%;
+height: auto;
+margin: auto;
+background-color: rgba(20,0, 0,0.3);
+position: absolute;
+margin-left: 5%;
+margin-top: 0%;
+}
+.banner-text,h1 .banner-text,p 
+{
+    padding: 10px;
+    color: white;
+    
+}
+}
