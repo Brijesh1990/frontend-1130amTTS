@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+         #content 
+        {
+            width: 100%;
+            height: auto;
+            margin: 5px;
+            padding: 25px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+
+        /* #content 
+        {
+            width: 100%;
+            height: auto;
+            margin: 5px;
+            padding: 25px;
+            display: grid;
+            grid-template-columns: 40% 20%;
+        } */
+        .box1 
+        {
+            width: 250px;
+            height: 250px;
+            background-color: red;
+            border-radius: 50%;
+            transition: 2s ease all;
+            margin-top: 2%;
+        }
+        .box2 
+        {
+            width: 250px;
+            height: 250px;
+            background-color: green;
+            border-radius: 50%;
+            transition: 2s ease all;
+            margin-top: 2%;
+        }
+        .box3 
+        {
+            width: 250px;
+            height: 250px;
+            background-color:antiquewhite;
+            border-radius: 50%;
+            transition: 2s ease all;
+            margin-top: 2%;
+        }
+        .box4 
+        {
+            width: 250px;
+            height: 250px;
+            background-color:black;
+            border-radius: 50%;
+            transition: 2s ease all;
+            margin-top: 2%;
+        }
+    </style>
+</head>
+<body>
+    <section id="content">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+    </section>
+</body>
+</html>
