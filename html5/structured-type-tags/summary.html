@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+
+            margin: 0;
+            padding: 0;
+            background-color: lightgray;
+        }
+        header 
+        {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 25px;
+            background-color: lightblue;
+        }
+        .nav 
+        {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 5px;
+            background-color: black;
+            
+        }
+        .nav ul li 
+        {
+            margin: 0;
+            padding: 0;
+            padding: 2px 20px;
+            display: inline-block;
+        }
+        .nav ul li  a 
+        {
+           text-decoration: none;
+           list-style-type: none;
+            color: white;
+        }
+        
+        .content 
+        {
+            width: 80%;
+            height: auto;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            margin-left: 10%;
+            margin-top: 3%;
+        }
+        .leftsidebar
+        {
+            width: 40%;
+            height: 450px;
+            background-color: cadetblue;
+        }
+
+        .rightsidebar
+        {
+            width: 60%;
+            height: 450px;
+            background-color: wheat;
+        }
+        
+        .rightsidebar details 
+        {
+        padding: 5px 15px;
+        margin: 0;
+        line-height: 0.8;
+        }
+        </style>
+</head>
+<body>
+    
+    <header>
+        <div class="logo"></div>
+        <div class="search"></div>
+        <div class="media-icon"></div>
+    </header>
+
+<nav class="navbar nav">
+
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">contact</a></li>
+        <li><a href="">Our services</a></li>
+        <li><a href="">feedback</a></li>
+    </ul>
+</nav>
+
+<section class="content">
+    <div class="leftsidebar"></div>
+    <div class="rightsidebar">
+        <details>
+            <summary><b>Click for More details</b></summary>
+            <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem provident vitae error quos sapiente ex nostrum saepe voluptate. Quisquam vero velit impedit obcaecati distinctio nulla, nihil pariatur numquam animi enim.</p>
+        </details>
+    </div>
+</section>
+
+</body>
+</html>
