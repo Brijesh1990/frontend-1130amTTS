@@ -1,0 +1,1 @@
+load is used as method in jquery and it is load on server and load data without page refresh or page reload. 
