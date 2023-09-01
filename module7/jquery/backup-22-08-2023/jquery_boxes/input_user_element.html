@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+    <!-- call a jquery  -->
+    <script>
+        // $(document).ready(function(){
+        //    statements;
+        // });
+        // jQuery(document).ready(function(){
+        //    statements;
+        // });
+        // $(document).ready(function(){
+        //    statements;
+        // });
+
+        // {"":""} object
+        $(document).ready(function(){
+            $("div").css({"width":"80%","margin":"auto","padding":"15px","border":"none"});
+            $("div input").css({"width":"30%","margin":"auto","padding":"8px"});
+            $("#btn").css({"background-color":"aqua","font-size":"20px","padding":"15px","width":"30%","margin":"auto","border":"none"});
+
+            // check age for eligibility for voting
+            $("#btn").click(function(){ 
+                // type casting method
+                // var a=parseInt(prompt('Enter a values ?'));
+                // var b=parseInt(prompt('Enter b values ?'));
+                var a=parseInt(document.getElementById("a").value);
+                var b=parseInt(document.getElementById("b").value);
+                var c=a+b;
+                // alert('The additions of numbers is :'+c)
+                document.getElementById("demo").innerHTML="Additions of numbers is :"+c;
+
+            });
+
+        })
+    </script>
+</head>
+<body>
+
+    <div class="clc">
+      <p id="demo"></p> 
+        <form>
+            <input type="text" id="a" placeholder="Enter a values">
+            <br><br>
+            <input type="text" id="b" placeholder="Enter b values">
+            <br><br>
+            <button type="button" id="btn">Check >></button>
+    
+        </form>
+        
+    </div>
+
+</body>
+</html>
